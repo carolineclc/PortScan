@@ -7,7 +7,7 @@ if __name__ == '__main__':
     args = sys.argv
     ip = args[1]
     init_port = 1
-    end_port = 1000
+    end_port = 65535
 
     if len(args) > 2:
         try:
